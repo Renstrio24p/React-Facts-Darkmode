@@ -5,7 +5,7 @@ export default function Navbar(props) {
   return (
         <nav className={Join(["navbar",props.darkmode ? 'dark' : ''])}>
             <div className='left'>
-                <img src="/src/images/React-Facts/react.png" alt="react-icon" />
+                <img src="./src/images/React-Facts/react.png" alt="react-icon" />
                 <h1 className='title'>ReactFacts</h1>
             </div>
             <div 
