@@ -1,0 +1,96 @@
+@import url('./sass/darkmode.scss');
+
+.navbar {
+    justify-content: space-between;
+    position: fixed;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navbar,.left {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.left {
+    gap: 10px
+}
+
+.left h1 {
+    font-weight: 600;
+}
+
+.navbar img {
+    width: 40px;
+}
+
+
+.toggler {
+    display: flex;
+    align-items: center;
+}
+
+.toggler p {
+    font-size: 0.625rem;
+    font-weight: 600;
+}
+
+.toggler-slider {
+    width: 25px;
+    height: 13px;
+    border-radius: 2rem;
+    margin-inline: 7px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    box-sizing: content-box;
+}
+
+
+
+main {
+    width: 100%;
+    height: 100vh;
+    background-image: url('/src/images/React-Facts/reactjs-icon2.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center ;
+}
+
+.overlay.dark {
+    background-color: #282D35;
+    color: white;    
+}
+
+.overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container h1 {
+    font-weight: 700;
+}
+
+.container ul {
+    width: 100%;
+    margin-left: 20px;
+    font-weight: 300;
+    line-height: 2rem;
+}
+
+.container ::marker {
+    color: #61DAFB;
+}

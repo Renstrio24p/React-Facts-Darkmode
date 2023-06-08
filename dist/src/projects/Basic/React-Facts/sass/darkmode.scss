@@ -1,0 +1,69 @@
+
+:root {
+    --navbar: #FFF;
+    --title: #1e6d7a;
+    --main: #fff;
+    --overlay: #ffffff9f;
+    --textcolor: #000;
+    --dark: #b9b9b9;
+    --light: #000000;
+    --slider: flex-start;
+    --toggle-slide: #fff;
+}
+
+.dark {
+    --navbar: #21222A;
+    --title: #00ABCA;
+    --main: #282D35;
+    --overlay: none;
+    --textcolor: #ffffff;
+    --dark: #fff;
+    --light: #1b1b1b;
+    --slider: flex-end;
+    --toggle-slide: #2B283A;
+}
+
+.navbar {
+    background-color: var(--navbar);
+    transition: .5s;
+}
+
+.title {
+    color: var(--title);
+}
+
+.toggler-light {
+    color: var(--light);
+}
+
+.toggler-dark {
+    color: var(--dark);
+}
+
+.toggler-slider {
+    display: flex;
+    justify-content: var(--slider);
+    background-color: var(--toggle-slide);
+}
+
+.toggler-slider-circle {
+    height: 13px;
+    width: 13px;
+    background-color: var(--dark);
+    border-radius: 50%;
+    transition: .5s;
+}
+
+main {
+    background-color: var(--main);
+    color: var(--textcolor);
+    transition: all .5s;
+}
+
+.overlay {
+    background-color: var(--overlay);
+}
+
+
+
+
