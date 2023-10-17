@@ -74,7 +74,7 @@ right click your "index.html" file and Open with Live server then run this comma
 
      $ npm start
 
-locate the "Start.jsx" and start your coding with react.
+to start coding at src/start.jsx and start your coding with react.
 
      I hope you like my work for this template.
      - Waren Gador
